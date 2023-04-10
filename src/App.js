@@ -10,7 +10,7 @@ function App() {
     </h1>
 
     <div className="card w-96 bg-base-100 shadow-xl">
-  <figure><img src="/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" /></figure>
+  <figure><img src="../components/Img/img-producto01" alt="Shoes" /></figure>
   <div className="card-body">
     <h2 className="card-title">Shoes!</h2>
     <p>If a dog chews shoes whose shoes does he choose?</p>
@@ -20,7 +20,10 @@ function App() {
   </div>
 </div>
     <button className="btn btn-primary">Button</button>
-    
+    <button className="btn btn-info">Info</button>
+<button className="btn btn-success">Success</button>
+<button className="btn btn-warning">Warning</button>
+<button className="btn btn-error">Error</button>
     </div>
   );
 }
